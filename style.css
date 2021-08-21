@@ -1,0 +1,74 @@
+/* font cdn link  */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+body{
+    font-family: 'Urbanist', sans-serif;
+}
+/* image */
+.main-body{
+    display: flex;
+}
+.left-img {
+    width: 100%;
+}
+.left-img img {
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+}
+/* customize section */
+.r-section{
+    width: 100%;
+}
+.h-text{
+    font-size: 50px;
+}
+.memory-button button{
+    padding: 5px;
+}
+.memory-button button:hover{
+    background-color: green;
+    color:white;
+}
+/* table pricing customization  */
+.table-pricing{
+ font-weight: bold;
+}
+.table-main{
+    margin-top: 15px;
+}
+table {
+    border-collapse: collapse;
+    width: 60%;
+}
+td {
+    text-align: left;
+    border-bottom: 2px solid white;
+}
+.last-border{
+    border-bottom: none;
+}
+.heading-border{
+    border-bottom: 2px solid black;
+}
+/* promo code  */
+.promo-code {
+    margin-top: 12px;
+}
+.promo-code input{
+    padding: 12px;
+} 
+.promo-code button{
+    background-color:orange;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    margin-bottom: 18px;
+}
+
+/* last total amount  */
+.total-amount{
+    text-align: center;
+}
